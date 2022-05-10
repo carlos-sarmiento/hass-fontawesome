@@ -6,6 +6,9 @@ const PREFIXES = {
   fab: "brands",
   far: "regular",
   fas: "solid",
+  fal: "light",
+  fat: "thin",
+  fad: "duotone",
   fapro: "pro",
   facustom: "pro",
 };
