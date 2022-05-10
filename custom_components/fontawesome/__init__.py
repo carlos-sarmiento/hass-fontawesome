@@ -44,7 +44,7 @@ async def async_setup(hass, config):
         )
     add_extra_js_url(hass, LOADER_URL)
 
-    for iset in ["brands", "regular", "solid"]:
+    for iset in ["brands", "regular", "solid", "thin", "light", "duotone"]:
         hass.http.register_static_path(
                 ICONS_URL + "/" + iset,
                 hass.config.path(ICONS_PATH + "/" + iset),
